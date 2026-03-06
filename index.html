@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jasrotia Garments</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Jasrotia Garments</h1>
+<p>Premium Clothing for Men & Women</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#payment">Payment</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+<h2>Trending Fashion Collection</h2>
+<p>Modern Premium Clothing</p>
+</section>
+
+<section id="products" class="products">
+
+<div class="product">
+<span class="badge">Best Seller</span>
+<img src="product1.jpg">
+<h3>Premium Shirt</h3>
+<p>₹999</p>
+<button onclick="orderProduct('Premium Shirt')">Order</button>
+</div>
+
+<div class="product">
+<span class="badge">Trending</span>
+<img src="product2.jpg">
+<h3>Stylish T Shirt</h3>
+<p>₹799</p>
+<button onclick="orderProduct('Stylish T Shirt')">Order</button>
+</div>
+
+</section>
+
+<section id="payment" class="payment">
+<h2>Pay via UPI</h2>
+<img src="qr.png" class="qr">
+<p>UPI ID: jasrotiagarments@ptyes</p>
+
+<form action="https://formsubmit.co/jasrotiashoppingcomplex@gmail.com" method="POST" enctype="multipart/form-data">
+
+<input type="text" name="Customer Name" placeholder="Your Name" required>
+
+<input type="text" name="Product" id="productName" placeholder="Product" required>
+
+<input type="text" name="Transaction ID" placeholder="UPI Transaction ID" required>
+
+<input type="file" name="Payment Screenshot" required>
+
+<button type="submit">Submit Order</button>
+
+</form>
+</section>
+
+<footer id="contact">
+
+<h3>Contact</h3>
+
+<p>Phone: 6005985078</p>
+<p>Shop Address: Jammu</p>
+
+<a href="https://www.instagram.com/jasrotiagarments" target="_blank">
+Instagram
+</a>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/916005985078">WhatsApp Order</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
