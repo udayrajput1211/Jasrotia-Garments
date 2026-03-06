@@ -1,68 +1,82 @@
 body{
-font-family:Arial;
 margin:0;
-background:#f5f5f5;
+font-family:Arial;
+background:#f5efe6;
+color:#333;
 }
 
 header{
-background:black;
-color:white;
-padding:20px;
 text-align:center;
+padding:30px;
+background:#f1e5d8;
 }
 
 nav{
-background:#222;
-padding:10px;
 text-align:center;
+padding:15px;
+background:#e7d7c9;
 }
 
 nav a{
-color:white;
 margin:10px;
 text-decoration:none;
+color:#333;
+font-weight:bold;
 }
 
 .hero{
-padding:60px;
+height:300px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:#efe3d5;
+}
+
+.section{
+padding:40px;
 text-align:center;
-background:#eaeaea;
 }
 
 .products{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:20px;
-padding:40px;
+margin-top:20px;
 }
 
-.product{
+.card{
 background:white;
-padding:10px;
+padding:15px;
 border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
-text-align:center;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
 }
 
-.product img{
+.card img{
 width:100%;
-border-radius:10px;
+border-radius:8px;
 }
 
 .badge{
-background:red;
+background:black;
 color:white;
-padding:5px 10px;
+padding:4px 8px;
 font-size:12px;
-border-radius:5px;
+border-radius:4px;
+}
+
+.trending{
+background:#c59d5f;
 }
 
 button{
+margin-top:10px;
 padding:10px 15px;
+border:none;
 background:black;
 color:white;
-border:none;
-border-radius:5px;
+border-radius:6px;
+cursor:pointer;
 }
 
 .payment{
@@ -72,13 +86,13 @@ padding:40px;
 
 .qr{
 width:200px;
+margin:10px;
 }
 
 footer{
-background:black;
-color:white;
-padding:30px;
+background:#e7d7c9;
 text-align:center;
+padding:30px;
 }
 
 .whatsapp{
@@ -88,6 +102,6 @@ right:20px;
 background:#25D366;
 color:white;
 padding:15px;
-border-radius:50%;
+border-radius:50px;
 text-decoration:none;
 }
