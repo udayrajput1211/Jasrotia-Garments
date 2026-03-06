@@ -1,107 +1,134 @@
 body{
+
 margin:0;
 font-family:Arial;
-background:#f5efe6;
-color:#333;
+background:#f7f4ef;
+
 }
 
 header{
+
+background:#f3eadf;
 text-align:center;
-padding:30px;
-background:#f1e5d8;
+padding:20px;
+
 }
 
 nav{
+
 text-align:center;
-padding:15px;
-background:#e7d7c9;
+background:#fff;
+padding:10px;
+
 }
 
 nav a{
-margin:10px;
+
+margin:15px;
 text-decoration:none;
-color:#333;
+color:black;
 font-weight:bold;
+
 }
 
 .hero{
-height:300px;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-background:#efe3d5;
+
+text-align:center;
+padding:60px;
+background:#e8dccb;
+
 }
 
 .section{
+
 padding:40px;
 text-align:center;
+
 }
 
 .products{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
-margin-top:20px;
+
+display:flex;
+justify-content:center;
+gap:30px;
+
 }
 
 .card{
+
 background:white;
-padding:15px;
+padding:20px;
 border-radius:10px;
-box-shadow:0 5px 10px rgba(0,0,0,0.1);
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+width:200px;
+
 }
 
 .card img{
+
 width:100%;
-border-radius:8px;
-}
+border-radius:10px;
 
-.badge{
-background:black;
-color:white;
-padding:4px 8px;
-font-size:12px;
-border-radius:4px;
-}
-
-.trending{
-background:#c59d5f;
 }
 
 button{
-margin-top:10px;
-padding:10px 15px;
-border:none;
+
 background:black;
 color:white;
-border-radius:6px;
+border:none;
+padding:10px 20px;
 cursor:pointer;
+margin-top:10px;
+
+}
+
+.checkout{
+
+text-align:center;
+padding:40px;
+
+}
+
+.checkout input{
+
+display:block;
+margin:10px auto;
+padding:10px;
+width:250px;
+
 }
 
 .payment{
+
 text-align:center;
 padding:40px;
+display:none;
+
 }
 
 .qr{
+
 width:200px;
-margin:10px;
+
 }
 
 footer{
-background:#e7d7c9;
+
 text-align:center;
-padding:30px;
+padding:20px;
+background:#f3eadf;
+
 }
 
 .whatsapp{
+
 position:fixed;
 bottom:20px;
 right:20px;
-background:#25D366;
+background:green;
 color:white;
-padding:15px;
-border-radius:50px;
+padding:10px 15px;
 text-decoration:none;
+border-radius:20px;
+
 }
