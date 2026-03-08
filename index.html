@@ -1,60 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Jasrotia Garments</title>
-
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-<header>
+<!-- Header -->
+<header class="header">
 
-<h1>Jasrotia Garments</h1>
-<p>Premium Clothing Store</p>
+<div class="logo">Jasrotia Garments</div>
+
+<input type="text" placeholder="Search for products">
+
+<button class="login">Login</button>
 
 </header>
 
-<nav>
+<!-- Categories -->
+<div class="categories">
 
-<a href="#">Home</a>
-<a href="#men">Men</a>
-<a href="#women">Women</a>
-<a href="#trending">Trending</a>
+<span>Men</span>
+<span>Women</span>
+<span>Trending</span>
+<span>New Arrivals</span>
 
-</nav>
+</div>
 
-<section class="hero">
+<!-- Products -->
+<section class="products">
 
-<h2>Premium Fashion Collection</h2>
-<p>Style That Defines You</p>
+<div class="card">
 
-</section>
+<img src="product1.jpg">
 
-<section class="section">
+<h3>Pure Cotton Shirt</h3>
 
-<h2>Trending Products</h2>
+<p class="price">₹499</p>
 
-<div class="products">
+<button>Buy Now</button>
 
-  <div class="card">
-
-<img src="product1.jpg" alt="Product 1" width="300">
-
-<h3>Pure Cotton Fabric</h3>
-
-<p>₹499</p>
-
-<button onclick="orderProduct('Premium Shirt')">Order</button>
-
-  </div>
-
+</div>
 
 <div class="card">
 
@@ -62,83 +51,20 @@
 
 <h3>Oversized T-Shirt</h3>
 
-<p>₹799</p>
+<p class="price">₹799</p>
 
-<button onclick="orderProduct('Oversized T-Shirt')">Order</button>
-
-</div>
+<button>Buy Now</button>
 
 </div>
 
 </section>
-
-
-<section id="checkout" class="checkout">
-
-<h2>Customer Details</h2>
-
-<input type="text" id="name" placeholder="Full Name">
-
-<input type="text" id="phone" placeholder="Phone Number">
-
-<input type="text" id="address" placeholder="Full Address">
-
-<input type="text" id="productName" placeholder="Product" readonly>
-
-<button onclick="goToPayment()">Continue To Payment</button>
-
-</section>
-
-
-<section id="payment" class="payment">
-
-<h2>UPI Payment</h2>
-
-<img src="qr.png" class="qr">
-
-<p>UPI ID: jasrotiagarments@ptyes</p>
-
-<form action="https://formsubmit.co/jasrotiashoppingcomplex@gmail.com" method="POST" enctype="multipart/form-data">
-
-<input type="hidden" name="name" id="finalName">
-
-<input type="hidden" name="product" id="finalProduct">
-
-<input type="text" name="transaction" placeholder="Transaction ID" required>
-
-<input type="file" name="screenshot" required>
-
-<button type="submit">Submit Order</button>
-
-</form>
-
-</section>
-
 
 <footer>
 
+<p>© Jasrotia Garments</p>
 <p>Phone: 6005985078</p>
-
-<p>Shop Address: Jammu</p>
-
-<a href="https://www.instagram.com/jasrotiagarments" target="_blank">
-
-Instagram
-
-</a>
 
 </footer>
 
-
-<a class="whatsapp" href="https://wa.me/916005985078">
-
-WhatsApp
-
-</a>
-
-
-<script src="script.js"></script>
-
 </body>
-
 </html>
