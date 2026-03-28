@@ -71,6 +71,10 @@ transition: 0.3s;
 transform: scale(1.05);
 box-shadow: 0 0 15px gold;
 }
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px gold;
+}
 
 .card img {
     width: 100%;
