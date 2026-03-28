@@ -72,6 +72,12 @@ transform: scale(1.05);
 box-shadow: 0 0 15px gold;
 }
 
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 footer {
 margin-top: 50px;
 padding: 20px;
