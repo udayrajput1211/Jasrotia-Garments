@@ -1,0 +1,80 @@
+body {
+margin: 0;
+font-family: Arial;
+background: #0a0a0a;
+color: white;
+text-align: center;
+}
+
+/* HEADER */
+header {
+display: flex;
+justify-content: space-between;
+padding: 15px 30px;
+background: black;
+box-shadow: 0 0 10px gold;
+}
+
+.logo {
+color: gold;
+font-weight: bold;
+font-size: 20px;
+}
+
+nav a {
+color: gold;
+margin: 10px;
+text-decoration: none;
+}
+
+/* HERO */
+.hero {
+padding: 100px 20px;
+}
+
+.hero h1 {
+font-size: 40px;
+color: gold;
+text-shadow: 0 0 15px gold;
+}
+
+.btn {
+background: gold;
+padding: 10px 20px;
+color: black;
+border-radius: 10px;
+text-decoration: none;
+}
+
+/* PRODUCTS */
+.products {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.card {
+background: #111;
+padding: 15px;
+margin: 10px;
+width: 200px;
+border-radius: 10px;
+transition: 0.3s;
+}
+
+.card:hover {
+transform: scale(1.05);
+box-shadow: 0 0 20px gold;
+}
+
+button {
+background: gold;
+border: none;
+padding: 10px;
+cursor: pointer;
+}
+
+/* FILTER */
+.filters {
+margin: 20px;
+}
