@@ -1,70 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jasrotia Garments</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Jasrotia Garments</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- Header -->
-<header class="header">
-
-<div class="logo">Jasrotia Garments</div>
-
-<input type="text" placeholder="Search for products">
-
-<button class="login">Login</button>
-
+<header>
+    <h1>Jasrotia Garments</h1>
+    <nav>
+        <button onclick="goTo('men.html')">Men</button>
+        <button onclick="goTo('women.html')">Women</button>
+        <button onclick="goTo('kids.html')">Kids</button>
+        <button onclick="goTo('contact.html')">Contact</button>
+    </nav>
 </header>
 
-<!-- Categories -->
-<div class="categories">
-
-<span>Men</span>
-<span>Women</span>
-<span>Trending</span>
-<span>New Arrivals</span>
-
-</div>
-
-<!-- Products -->
-<section class="products">
-
-<div class="card">
-
-<img src="product1.jpg">
-
-<h3>Pure Cotton Shirt</h3>
-
-<p class="price">₹499</p>
-
-<button>Buy Now</button>
-
-</div>
-
-<div class="card">
-
-<img src="product2.jpg">
-
-<h3>Oversized T-Shirt</h3>
-
-<p class="price">₹799</p>
-
-<button>Buy Now</button>
-
-</div>
-
+<section class="hero">
+    <h2>Welcome to Jasrotia Garments</h2>
+    <p>Best Fashion for Everyone</p>
+    <button onclick="goTo('men.html')">Shop Now</button>
 </section>
 
-<footer>
-
-<p>© Jasrotia Garments</p>
-<p>Phone: 6005985078</p>
-
-</footer>
-
+<script src="script.js"></script>
 </body>
 </html>
