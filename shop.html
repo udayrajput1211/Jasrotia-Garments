@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Shop</h1>
+
+<div class="filters">
+<button onclick="filter('all')">All</button>
+<button onclick="filter('men')">Men</button>
+<button onclick="filter('women')">Women</button>
+<button onclick="filter('kids')">Kids</button>
+<button onclick="filter('accessories')">Accessories</button>
+<button onclick="filter('shoes')">Shoes</button>
+</div>
+
+<div class="products">
+
+<div class="card men">
+<h3>Men Shirt</h3>
+<p>₹999</p>
+<button onclick="addToCart('Men Shirt',999)">Add</button>
+</div>
+
+<div class="card women">
+<h3>Dress</h3>
+<p>₹1499</p>
+<button onclick="addToCart('Dress',1499)">Add</button>
+</div>
+
+<div class="card kids">
+<h3>Kids Wear</h3>
+<p>₹799</p>
+<button onclick="addToCart('Kids Wear',799)">Add</button>
+</div>
+
+<div class="card accessories">
+<h3>Handbag</h3>
+<p>₹1199</p>
+<button onclick="addToCart('Handbag',1199)">Add</button>
+</div>
+
+<div class="card shoes">
+<h3>Shoes</h3>
+<p>₹1999</p>
+<button onclick="addToCart('Shoes',1999)">Add</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
