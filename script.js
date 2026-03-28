@@ -1,28 +1,11 @@
-function orderProduct(product){
-
-document.getElementById("productName").value = product;
-
-document.getElementById("checkout").scrollIntoView({
-behavior:"smooth"
-})
-
+function goTo(page) {
+    window.location.href = page;
 }
 
+function buyNow() {
+    alert("Product added! Contact shop for order.");
+}
 
-function goToPayment(){
-
-let name=document.getElementById("name").value
-
-let product=document.getElementById("productName").value
-
-document.getElementById("finalName").value=name
-
-document.getElementById("finalProduct").value=product
-
-document.getElementById("payment").style.display="block"
-
-document.getElementById("payment").scrollIntoView({
-behavior:"smooth"
-})
-
+function whatsapp() {
+    window.open("https://wa.me/919876543210");
 }
